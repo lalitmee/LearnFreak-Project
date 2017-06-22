@@ -3,9 +3,21 @@ body,html{
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ul.nav a:hover { color: white !important; }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #051f49;
     color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: #051f49;
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: white;
+  backg
 }
 
 .navbar {
