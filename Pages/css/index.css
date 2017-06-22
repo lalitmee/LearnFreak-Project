@@ -1,0 +1,358 @@
+body,html{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar {
+  color: white;
+  border-radius: 0px;
+}
+.navbar-nav{
+  font-family: 'Open Sans', sans-serif;
+  float: right !important;
+}
+
+.navbar-default{
+  color: white;
+  background-color: #3463af;
+  border-color: #3463af;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+  font-family: 'Open Sans', cursive;
+  font-size: 40px;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  /*background-color: blue !important;*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  /*color: white;
+     background-color: ;*/
+}
+
+section{
+  /*width: 500px; height:100%; margin: 0 auto;*/
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/bg_index.jpg");
+
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+
+}
+
+.caption{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+
+  /*text-align: center;*/
+
+}
+
+.design{
+  margin-left: 25%;
+    padding: 20px;
+}
+
+.cap-bold{
+  color: #3463af;
+  font-size: 40px;
+  /*font-weight: 300;*/
+}
+
+.text{
+  line-height: 1;
+  color: black;
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search_box{
+  padding-top: 35px;
+}
+
+#namanyay-search-btn {
+background:#3463af;
+color:white;
+font: 'trebuchet ms', trebuchet;
+padding:10px 20px;
+border-radius:2px 2px 2px 2px;
+-moz-border-radius:2px 2px 2px 2px;
+-webkit-border-radius:2px 2px 2px 2px;
+-o-border-radius:2px 2px 2px 2px;
+border:0 none;
+font-weight:bold;
+width: 14%;
+}
+
+#namanyay-search-box {
+background: #000;
+padding:10px;
+border-color: white;
+ border-radius:2px 2px 2px 2px;
+-moz-border-radius:2px 2px 2px 2px;
+-webkit-border-radius:2px 2px 2px 2px;
+-o-border-radius:2px 2px 2px 2px;
+border:1px solid white;
+width:85%;
+opacity: 0.5;
+ }
+
+ input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-size: 18px;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  font-size: 18px;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  font-size: 18px;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-size: 18px;
+}
+
+.card-container{
+  text-align:center;
+  padding-top: 50px;
+}
+.card{
+  background-color:black;
+  width: 230px;
+   height: 160px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);
+  display:inline-block;
+  margin: 19px;
+  text-align:justify;
+  padding-top:10px;
+  opacity: 0.6;
+}
+
+.card-content img {
+  padding-left: 85px;
+    padding-top: 5px;
+}
+
+.img_text{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+      padding: 15px;
+}
+
+.card-container-big{
+  text-align:center;
+  padding-top: 100px;
+}
+
+.card_img_1{
+  background-image: url("../images/img_trainer.png");
+
+}
+
+.card_img_2{
+  background-image: url("../images/img_learner.png");
+}
+
+.card-big{
+  background-color:black;
+  width: 366px;
+    height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);
+  display:inline-block;
+  margin: 19px;
+  text-align:justify;
+  padding-top:10px;
+  /*opacity: 0.6;*/
+}
+
+.card-content-big img {
+  padding-left: 85px;
+    padding-top: 5px;
+}
+
+.highlight{
+  background-color: rgba(0,0,0,0.5);
+ position: absolute;
+ height: 300px;
+ width: 366px;
+ font-family: 'Raleway', sans-serif;
+ color: #FFF;
+ border-radius: 4px;
+   margin-top: -10px;
+ z-index: 1;
+}
+
+.butn{
+  margin-left: 90px;
+  display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.butn-info{
+  color: #fff;
+    background-color: #3463af;
+    border-color: #3463af;
+}
+
+.text_img{
+  font-size: 27px;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+.cap-blue{
+  /*color: #3463af;*/
+  font-size: 29px;
+  font-weight: 300;
+}
+
+.text_down{
+  padding-left: 95px;
+padding-top: 30px;
+font-size: 21px;
+}
+
+/*.bg{
+    width: 100%;
+    background-size: 100% 100%;
+}*/
+
+and finally, we serve for every view-port the right image:
+
+/* Retina display */
+@media screen and (min-width: 1024px){
+    .bg{
+        background-image: url('../images/bg_index.jpg');
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .bg{
+        background-image: url('../images/bg_index.jpg');
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .bg{
+        background-image: url('../images/bg_index.jpg');
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .bg{
+        background-image: url('../images/bg_index.jpg');
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .bg{
+        background-image: url('../img/mobile-ld.jpg');
+    }
+}
+
+
+
+
+.info{
+  margin-left: 3%;
+  list-style: none;
+}
+
+.info li {
+  list-style: none;
+  line-height: 2em;
+}
+
+/*.info ul li:first-child{
+  font-weight: 600;
+}*/
+
+.info .col-md-2 {
+  width: 230px;
+}
+
+.contact-bold{
+  font-weight: bolder;
+  /*font-size: 20px;*/
+}
+
+footer{
+  background-color: #3463af;
+}
+
+.footer-stick{
+  margin-left: 15%;
+
+  color: white;
+}
+
+.fa {
+  padding: 15px;
+    font-size: 20px;
+    width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
