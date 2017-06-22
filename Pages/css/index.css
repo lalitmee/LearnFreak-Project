@@ -2,6 +2,12 @@ body,html{
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+    color: white;
+}
+
 .navbar {
   color: white;
   border-radius: 0px;
@@ -13,8 +19,8 @@ body,html{
 
 .navbar-default{
   color: white;
-  background-color: #3463af;
-  border-color: #3463af;
+  background-color: #1453a3;
+  border-color: #1453a3;
 }
 
 .navbar-default .navbar-brand{
@@ -74,7 +80,7 @@ section{
 }
 
 .cap-bold{
-  color: #3463af;
+  color: #1453a3;
   font-size: 40px;
   /*font-weight: 300;*/
 }
@@ -91,16 +97,17 @@ section{
 }
 
 #namanyay-search-btn {
-background:#3463af;
+background:#1453a3;
 color:white;
 font: 'trebuchet ms', trebuchet;
 padding:10px 20px;
-border-radius:2px 2px 2px 2px;
--moz-border-radius:2px 2px 2px 2px;
--webkit-border-radius:2px 2px 2px 2px;
--o-border-radius:2px 2px 2px 2px;
+border-radius:3px 3px 3px 3px;
+-moz-border-radius:3px 3px 3px 3px;
+-webkit-border-radius:3px 3px 3px 3px;
+-o-border-radius:3px 3px 3px 3px;
 border:0 none;
 font-weight:bold;
+height: 50px;
 width: 14%;
 }
 
@@ -108,12 +115,13 @@ width: 14%;
 background: #000;
 padding:10px;
 border-color: white;
- border-radius:2px 2px 2px 2px;
--moz-border-radius:2px 2px 2px 2px;
--webkit-border-radius:2px 2px 2px 2px;
--o-border-radius:2px 2px 2px 2px;
+ border-radius:3px 3px 3px 3px;
+-moz-border-radius:3px 3px 3px 3px;
+-webkit-border-radius:3px 3px 3px 3px;
+-o-border-radius:3px 3px 3px 3px;
 border:1px solid white;
 width:85%;
+height: 50px;
 opacity: 0.5;
  }
 
@@ -232,8 +240,8 @@ input:-moz-placeholder { /* Firefox 18- */
 
 .butn-info{
   color: #fff;
-    background-color: #3463af;
-    border-color: #3463af;
+    background-color: #1453a3;
+    border-color: #1453a3;
 }
 
 .text_img{
@@ -242,7 +250,7 @@ input:-moz-placeholder { /* Firefox 18- */
     padding-top: 100px;
 }
 .cap-blue{
-  /*color: #3463af;*/
+  /*color: #1453a3;*/
   font-size: 29px;
   font-weight: 300;
 }
@@ -322,7 +330,7 @@ and finally, we serve for every view-port the right image:
 }
 
 footer{
-  background-color: #3463af;
+  background-color: #1453a3;
 }
 
 .footer-stick{

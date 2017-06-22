@@ -2,6 +2,12 @@ body,html{
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+    color: white;
+}
+
 .navbar {
   color: white;
   border-radius: 0px;
@@ -13,8 +19,8 @@ body,html{
 
 .navbar-default{
   color: white;
-  background-color: #3463af;
-  border-color: #3463af;
+  background-color: #1453a3;
+  border-color: #1453a3;
 }
 
 .navbar-default .navbar-brand{
@@ -67,7 +73,7 @@ section{
 }
 
 .cap-blue{
-  color: #3463af;
+  color: #1453a3;
   font-size: 40px;
 }
 
@@ -95,8 +101,8 @@ section{
 
 .butn-info{
   color: #fff;
-    background-color: #3463af;
-    border-color: #3463af;
+    background-color: #1453a3;
+    border-color: #1453a3;
 }
 
 .how_text{
@@ -552,7 +558,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
 }
 
 footer{
-  background-color: #3463af;
+  background-color: #1453a3;
 }
 
 .footer-stick{
