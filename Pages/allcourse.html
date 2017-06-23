@@ -60,7 +60,6 @@
       </div>
       <div class="col-md-10">
         <div class="search_box">
-
           <div class="row">
             <div class="col-md-6">
               <select class="js-example-placeholder-single_1 form-control rounded" id="id_label_single">
@@ -79,27 +78,16 @@
       <option value="3">Spain</option>
                          </select>
               </div>
-
-
             </div>
-
           </div>
-
-
           </form>
         </div>
-
-
       </div>
       <div class="col-md-1">
-
       </div>
-
     </div>
 
-
   </section>
-
   <hr class="shadow">
   <br>
   <br>
@@ -107,7 +95,6 @@
   <section class="search">
     <div class="row">
       <div class="col-md-1">
-
       </div>
       <div class="col-md-10">
         <div class="course_container">
@@ -118,53 +105,29 @@
                   <div class="img_block">
                       <img  src="./images/img_course.jpg" alt="" class="img-responsive">
                   </div>
-
                 </div>
                 <div class="col-md-9">
                   <div class="row">
                     <div class="col-md-9 course_info">
                       <span class="course_name"><strong>Learn SAP Course - Online Beginner Training</strong> </span>
 
-                      <span class="course_tag">Bestselling</span>
+                      <span class="course_tag button-slanted">Bestselling</span>
 
                     </div>
                     <div class="col-md-3">
                       <div class="row">
-                        <div class="col-md-10">
-                          <div class="star-rating">
-                            <fieldset>
-                              <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
-                              <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Very Good">4 stars</label>
-                              <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Good">3 stars</label>
-                              <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor">2 stars</label>
-                              <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor">1 star</label>
-                            </fieldset>
-
-                          </div>
-
-                        </div>
-                        <div class="col-md-2">
-                            <span class="rating">4.2</span>
-
-                        </div>
-
+                        <div id="jRate"></div>
 
                       </div>
                       <span class="more_rating text-muted">(617 ratings)</span>
 
 
-
                     </div>
-
                   </div>
-
                   <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-9 m_top">
                       <span class="trainer_info text-muted">Peter Moxon.Head Trainer at SAP Training HQ</span>
-
                     </div>
-
-
                   </div>
 
                   <div class="row">
@@ -179,32 +142,48 @@
 
                   </div>
 
-                  <div class="row">
-                    <div class="col-md-4">
+                  <div class="row m_top_icon">
+                    <div class="col-md-5 ">
                       <div class="course_material">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="course_video">
-                              <i class="fa fa-play-circle" aria-hidden="true"></i>
-                              <span class="text-muted mat_info">13 Lectures</span>
+                        <div class="row ">
+                          <div class="col-md-4 padding-0">
+                            <div class="course_video m_left">
+
+                            <i class="fa fa-play-circle" aria-hidden="true">  <span class="text-muted mat_info">13 Lectures</span></i>
 
                             </div>
 
                           </div>
-                          <div class="col-md-4">
-                            <div class="course_time">
-                              <span class="text-muted mat_info">2 hours</span>
+
+
+
+                            <div class="col-md-3 padding-0">
+                              <div class="course_time m_left">
+
+
+                                  <i class="fa fa-clock-o" aria-hidden="true"><span class="text-muted mat_info">&nbsp;2 hours</span></i>
+
+                              </div>
 
                             </div>
 
-                          </div>
-                          <div class="col-md-4">
-                            <div class="course_level">
-                              <span class="text-muted mat_info">Beginner Level</span>
+
+
+
+
+                            <div class="col-md-5 padding-0">
+                              <div class="course_level m_left">
+                                <i class="fa fa-sliders" aria-hidden="true"><span class="text-muted mat_info">&nbsp;Beginner Level</span></i>
+
+                              </div>
 
                             </div>
 
-                          </div>
+
+
+
+
+
 
                         </div>
 
@@ -215,7 +194,7 @@
 
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                       <button class="butn butn-info" type="button" name="button">Schedule</button>
                       <button class="butn butn-info" type="button" name="button">Detail</button>
                       <button class="butn butn-info" type="button" name="button">Add to Wishlist</button>
@@ -360,6 +339,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+  <script src="js/jRate.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $(".js-example-placeholder-single_1").select2({
@@ -375,7 +355,17 @@
 
       });
 
+      $("#jRate").jRate({
+        onChange: function(rating) {
+    			$('#demo-onchange-value').text("Your Rating: "+rating);
+    		},
+		
+    width: 25,
+    precision: 0.5,
+		height: 20,
+    shapeGap: '5px',
 
+	});
     });
 
 

@@ -212,7 +212,7 @@ hr {
 .course{
   background-color: white;
   width: 100%;
-   height: 160px;
+   height: 141px;
   border-radius: 4px;
   border: 1px solid #ddd;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);*/
@@ -223,6 +223,10 @@ hr {
   /*opacity: 0.6;*/
 }
 
+#jRate{
+  margin-top: 13px;
+}
+
 .course_name{
   font-size: 20px;
   font-weight: 600;
@@ -231,12 +235,25 @@ hr {
 .course_tag{
   border: 1px solid #f2bf1a;
   background-color: #f2bf1a;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 3px 10px;
   color: black;
   transition: all 300ms ease-in-out;
+  -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+
 
 }
+
+/*.button-slanted {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}*/
+
+
+
 
  img {
   max-width:100%;
@@ -310,8 +327,20 @@ hr {
     margin-top: -7px;
 }
 
+p {
+  margin: 0px 0px 3px !important;
+}
+
+.m_top_icon{
+  margin-top: -7px;
+}
+
+.more_course_info{
+  margin-top: 5px;
+}
+
 .trainer_info{
-  font-size: 12px;
+  font-size: 13px;
   /*color: lightslategray;*/
 }
 
@@ -321,18 +350,35 @@ hr {
 
 .mat_info{
   font-size: 12px;
+  font-family: myFirstFont;
 }
 
 .fa {
-  font-size: 16px;
+  display: inline;
+  padding: 0px !important;
+  font-size: 16px !important;
+  width: 0px !important;
 }
 
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.m_left{
+  margin-left: 14px;
+  padding-top: 6px;
+}
+
+.m_top{
+  margin-top:-16px;
+}
 
 .butn{
   margin-left: 7px;
   height: 32px;
   display: inline-block;
-    padding: 6px 21px;
+    padding: 6px 15px;
     margin-bottom: 0;
     font-size: 15px;
     font-weight: 400;
