@@ -1,6 +1,11 @@
 body,html{
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont ;
+    src: url("../fonts/AvenirLTStd-Book.otf");
 }
 
 ul.nav a:hover { color: white !important; }
@@ -25,7 +30,7 @@ ul.nav a:hover { color: white !important; }
   border-radius: 0px;
 }
 .navbar-nav{
-  font-family: 'Open Sans', sans-serif;
+  font-family: avenir ;
   float: right !important;
 }
 
@@ -37,7 +42,7 @@ ul.nav a:hover { color: white !important; }
 
 .navbar-default .navbar-brand{
   color: white;
-  font-family: 'Open Sans', cursive;
+  font-family: “Bernard MT Condensed”, Times, serif;
   font-size: 40px;
 }
 
@@ -80,7 +85,7 @@ section{
   left: 20%;
   top: 20%;
   width: 50%;
-  font-family: 'Raleway', sans-serif;
+  font-family: myFirstFont ;
 
   /*text-align: center;*/
 
@@ -101,7 +106,7 @@ section{
   line-height: 1;
   color: black;
   padding-top: 50px;
-  font-family: 'Raleway', sans-serif;
+  font-family: myFirstFont ;
 }
 
 .search_box{
@@ -111,7 +116,7 @@ section{
 #namanyay-search-btn {
 background:#1453a3;
 color:white;
-font: 'trebuchet ms', trebuchet;
+font: myFirstFont;
 padding:10px 20px;
 border-radius:3px 3px 3px 3px;
 -moz-border-radius:3px 3px 3px 3px;
@@ -220,7 +225,7 @@ input:-moz-placeholder { /* Firefox 18- */
  position: absolute;
  height: 300px;
  width: 366px;
- font-family: 'Raleway', sans-serif;
+ font-family: myFirstFont;
  color: #FFF;
  border-radius: 4px;
    margin-top: -10px;
@@ -278,42 +283,6 @@ font-size: 21px;
     background-size: 100% 100%;
 }*/
 
-and finally, we serve for every view-port the right image:
-
-/* Retina display */
-@media screen and (min-width: 1024px){
-    .bg{
-        background-image: url('../images/bg_index.jpg');
-    }
-}
-
-/* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
-    .bg{
-        background-image: url('../images/bg_index.jpg');
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 760px) and (max-width: 980px){
-    .bg{
-        background-image: url('../images/bg_index.jpg');
-    }
-}
-
-/* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
-    .bg{
-        background-image: url('../images/bg_index.jpg');
-    }
-}
-
-/* Mobile LD */
-@media screen and (max-width: 350px){
-    .bg{
-        background-image: url('../img/mobile-ld.jpg');
-    }
-}
 
 
 
