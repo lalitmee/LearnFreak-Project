@@ -324,8 +324,9 @@ hr {
 
 .butn{
   margin-left: 7px;
+  height: 32px;
   display: inline-block;
-    padding: 6px 12px;
+    padding: 6px 21px;
     margin-bottom: 0;
     font-size: 15px;
     font-weight: 400;
