@@ -1,0 +1,463 @@
+body, html {
+  height: 100%;
+  font-family: myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/AvenirLTStd-Book.otf");
+}
+
+ul.nav a:hover {
+  color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: #051f49;
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #051f49;
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: #051f49;
+}
+
+.navbar {
+  color: white;
+  border-radius: 0px;
+}
+
+.navbar-nav {
+  font-family: avenir;
+  float: right !important;
+}
+
+.navbar-default {
+  color: white;
+  background-color: #1453a3;
+  border-color: #1453a3;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-family: “Bernard MT Condensed”, Times, serif;
+  font-size: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  /*background-color: blue !important;*/
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  /*color: white;
+     background-color: ;*/
+}
+
+section {
+  /*width: 500px; height:100%; margin: 0 auto;*/
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/bg_search_top.jpg");
+  color: white;
+  height: 100%;
+  text-align: center;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: -20px;
+}
+
+.text_course {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.text_p {
+  font-size: 22px;
+  text-align: center;
+}
+
+
+}
+.caption {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 50%;
+  font-family: myFirstFont;
+  /*text-align: center;*/
+}
+.highlight {
+  background-color: rgba(0, 0, 90, 0.5);
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  font-family: myFirstFont;
+  color: #FFF;
+  z-index: 1;
+}
+.design {
+  margin-left: 25%;
+  padding: 20px;
+}
+.cap-bold {
+  color: #1453a3;
+  font-size: 40px;
+  /*font-weight: 300;*/
+}
+.text {
+  line-height: 1;
+  color: black;
+  padding-top: 50px;
+  font-family: myFirstFont;
+}
+.search_box {
+  padding-top: 35px;
+}
+#namanyay-search-btn {
+  background: #1453a3;
+  color: white;
+  font: myFirstFont;
+  padding: 10px 20px;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -o-border-radius: 3px 3px 3px 3px;
+  border: 0 none;
+  font-weight: bold;
+  height: 50px;
+  width: 14%;
+}
+#namanyay-search-box {
+  background: ;
+  padding: 10px;
+  border-color: #000;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -o-border-radius: 3px 3px 3px 3px;
+  border: 1px solid #000;
+  width: 50%;
+  height: 50px;
+  opacity: 0.5;
+}
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+
+  color: #000;
+  font-size: 18px;
+}
+input::-moz-placeholder {
+  /* Firefox 19+ */
+
+  color: white;
+  font-size: 18px;
+}
+input:-ms-input-placeholder {
+  /* IE 10+ */
+
+  color: white;
+  font-size: 18px;
+}
+input:-moz-placeholder {
+  /* Firefox 18- */
+
+  color: white;
+  font-size: 18px;
+}
+[class^='select2'] {
+  border-radius: 20px !important;
+}
+.select2 {
+  width: 300px !important;
+}
+.select-box_2 {
+  float: right;
+}
+select:focus, select:active {
+  outline: 0;
+}
+input:focus, select:focus, textarea:focus, form:focus, button:focus {
+  outline: 0;
+}
+hr {
+  margin-top: 35px;
+  box-shadow: 0px 1px 3px #888888;
+}
+.course-container {
+  text-align: center;
+  padding-top: 50px;
+}
+.course {
+  background-color: white;
+  width: 100%;
+  height: 137px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);*/
+
+  display: inline-block;
+  text-align: justify;
+  margin-top: 20px;
+  /*opacity: 0.6;*/
+}
+
+.course_name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.course_tag {
+  border: 1px solid #f2bf1a;
+  background-color: #f2bf1a;
+  border-radius: 2px;
+  padding: 3px 10px;
+  color: black;
+  transition: all 300ms ease-in-out;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+/*.button-slanted {
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}*/
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.img_block {
+  /*width: 180px;
+  height: 158px;*/
+}
+
+/*star rating*/
+.star-rating {
+  font-family: 'FontAwesome';
+  float: right;
+}
+.star-rating>fieldset {
+  border: none;
+  display: inline-block;
+}
+.star-rating>fieldset:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+  clip: rect(0, 0, 0, 0);
+}
+.star-rating>fieldset:not(:checked)>label {
+  float: right;
+  width: 1em;
+  margin: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 160%;
+  color: #1bad11;
+}
+.star-rating>fieldset:not(:checked)>label:before {
+  content: '\f006  ';
+}
+.star-rating>fieldset:not(:checked)>label:hover, .star-rating>fieldset:not(:checked)>label:hover~label {
+  color: #1bad11;
+  text-shadow: 0 0 3px #1abc9c;
+}
+.star-rating>fieldset:not(:checked)>label:hover:before, .star-rating>fieldset:not(:checked)>label:hover~label:before {
+  content: '\f005  ';
+}
+.star-rating>fieldset>input:checked~label:before {
+  content: '\f005  ';
+}
+.star-rating>fieldset>label:active {
+  position: relative;
+  top: 2px;
+}
+.rating {
+  float: right;
+  display: inline;
+  font-family: myFirstFont;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+.more_rating {
+  font-size: 12px;
+
+  margin-right: 10px;
+  margin-top: -22px;
+}
+p {
+  margin: 0px 0px 3px !important;
+}
+.m_top_icon {
+  margin-top: -7px;
+}
+.more_course_info {
+  margin-top: 5px;
+}
+.trainer_info {
+  font-size: 13px;
+  /*color: lightslategray;*/
+}
+.course_info {
+  margin-top: 10px;
+}
+.mat_info {
+  font-size: 12px;
+  font-family: myFirstFont;
+}
+.fa {
+  display: inline;
+  padding: 0px !important;
+  font-size: 16px !important;
+  width: 0px !important;
+}
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+label {
+  display: block;
+}
+textarea {
+  display: block;
+  width: 100%;
+    border-radius: 5px;
+    border-color: #ddd;
+    resize: none;
+}
+.m_left {
+  margin-left: 14px;
+  padding-top: 6px;
+}
+.m_left_less {
+  padding-top: 6px;
+}
+.m_top {
+  margin-top: -15px;
+}
+.m_top_col {
+  margin-top: 40px;
+}
+.butn {
+  margin-left: 7px;
+  height: 32px;
+  display: inline-block;
+  padding: 6px 13px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 16px;
+}
+.butn-info {
+  color: #fff;
+  background-color: #1453a3;
+  border-color: #1453a3;
+}
+.text_img {
+  font-size: 27px;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+.cap-blue {
+  /*color: #1453a3;*/
+
+  font-size: 29px;
+  font-weight: 300;
+}
+.select2-container .select2-search--inline .select2-search__field {
+  padding-left: 6px !important;
+}
+.select2-container .select2-search--inline .select2-search__field {
+  margin-top: 8px !important;
+}
+.text_down {
+  padding-left: 95px;
+  padding-top: 30px;
+  font-size: 21px;
+}
+
+/*.bg{
+    width: 100%;
+    background-size: 100% 100%;
+}*/
+.info {
+  margin-left: 3%;
+  list-style: none;
+}
+.info li {
+  list-style: none;
+  line-height: 2em;
+}
+
+/*.info ul li:first-child{
+  font-weight: 600;
+}*/
+.info .col-md-2 {
+  width: 230px;
+}
+.contact-bold {
+  font-weight: bolder;
+  /*font-size: 20px;*/
+}
+footer {
+  background-color: #1453a3;
+}
+.footer-stick {
+  margin-left: 15%;
+  color: white;
+}
+.contact-icons {
+  margin-top: 7px;
+}
+.contact .fa {
+  padding: 10px !important;
+  font-size: 20px !important;
+  width: 45px !important;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

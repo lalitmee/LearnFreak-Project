@@ -418,6 +418,10 @@ p {
   font-weight: 300;
 }
 
+.select2-container .select2-search--inline .select2-search__field{
+  padding-left: 6px !important;
+}
+
 .text_down{
   padding-left: 95px;
 padding-top: 30px;

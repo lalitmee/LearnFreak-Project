@@ -48,7 +48,9 @@
   <section class="bg">
     <div class="highlight">
       <h1 class="text_course">All Course</h1>
+        <div class="col-md-6 col-md-offset-3">
       <p class="text_p">Browse the list of the courses below, or use the search bar or dropdown list to discover more.</p>
+    </div>
     </div>
 
   </section>
@@ -62,20 +64,40 @@
         <div class="search_box">
           <div class="row">
             <div class="col-md-6">
-              <select class="js-example-placeholder-single_1 form-control rounded" id="id_label_single">
+              <select class="js-example-basic-multiple_1 form-control rounded" id="id_label_single" multiple="multiple">
                          <option></option>
-    <option value="1">Germany</option>
-    <option value="2">France</option>
-    <option value="3">Spain</option>
+    <option value="1">Job Oriented Trainings</option>
+    <option value="2">On Job Support</option>
+    <option value="3">Project Experince</option>
+
                        </select>
             </div>
             <div class="col-md-6">
               <div class="select-box_2">
-                <select class="js-example-placeholder-single_2 form-control pull-right" id="id_label_single">
+                <select class="js-example-basic-multiple_2 form-control rounded" id="id_label_single" multiple="multiple">
                            <option></option>
-      <option value="1">Germany</option>
-      <option value="2">France</option>
-      <option value="3">Spain</option>
+                           <optgroup label="Vendor">
+                             <option value="1">Germany</option>
+                             <option value="2">France</option>
+                             <option value="3">Spain</option>
+                             <option value="4">Germany</option>
+
+                           </optgroup>
+
+                           <optgroup label="Technology">
+                             <option value="5">Moblie</option>
+                             <option value="6">Cloud</option>
+                             <option value="7">Java</option>
+
+                           </optgroup>
+
+                           <optgroup label="Application">
+                             <option value="8">CRM</option>
+                             <option value="9">FI</option>
+                             <option value="10">SD</option>
+                             <option value="11">HCM</option>
+                           </optgroup>
+
                          </select>
               </div>
             </div>
@@ -485,18 +507,19 @@
   <script src="js/jRate.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $(".js-example-placeholder-single_1").select2({
+      $(".js-example-basic-multiple_1").select2({
         placeholder: "Select Offering",
         allowClear: true,
-       width: 'element',
+        tags: true,
       });
 
-      $(".js-example-placeholder-single_2").select2({
+      $(".js-example-basic-multiple_2").select2({
         placeholder: "Select Topic",
         allowClear: true,
-       width: 'element',
+        tags: true,
 
       });
+
     });
 
     $(document).ready(function () {
