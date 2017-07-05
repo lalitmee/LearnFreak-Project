@@ -694,3 +694,16 @@ img{
     overflow-y: auto;
 }
 }
+
+
+ul.exp_list{
+  list-style: none;
+}
+
+.experience{
+  border: 1px solid #ddd;
+}
+
+.head{
+  background-color: #ddd;
+}
