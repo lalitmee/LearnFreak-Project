@@ -196,6 +196,7 @@ input:focus, select:focus, textarea:focus, form:focus, button:focus {
 }
 hr {
   margin-top: 35px;
+  margin-bottom:0px;
   box-shadow: 0px 1px 3px #888888;
 }
 .course-container {
@@ -217,7 +218,7 @@ hr {
 }
 
 .course_name {
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 600;
 }
 .course_tag {
@@ -226,6 +227,7 @@ hr {
   border-radius: 2px;
   padding: 3px 10px;
   color: black;
+  font-size: 12px;
   transition: all 300ms ease-in-out;
   -webkit-transform: skew(-20deg);
   -moz-transform: skew(-20deg);
@@ -295,10 +297,19 @@ img {
   margin-right: 8px;
 }
 .more_rating {
+  float: right;
   font-size: 12px;
-
+  color: white;
   margin-right: 10px;
   margin-top: -22px;
+}
+
+.more_rating_enroll{
+  float: right;
+  font-size: 12px;
+  color: white;
+  margin-right: 10px;
+  margin-top: 0px;
 }
 p {
   margin: 0px 0px 3px !important;
@@ -308,10 +319,11 @@ p {
 }
 .more_course_info {
   margin-top: 5px;
+  font-size: 19px;
 }
 .trainer_info {
   font-size: 13px;
-  /*color: lightslategray;*/
+  color: white;
 }
 .course_info {
   margin-top: 10px;
@@ -354,12 +366,14 @@ textarea {
   margin-top: 40px;
 }
 .butn {
-  margin-left: 7px;
-  height: 32px;
+  margin-left: 35px;
+  margin-top: 10px;
+  height: 50px;
   display: inline-block;
+  width: 83%;
   padding: 6px 13px;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -374,13 +388,46 @@ textarea {
   user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 16px;
+  border-radius: ;
 }
-.butn-info {
+.sch-butn-info {
   color: #fff;
   background-color: #1453a3;
   border-color: #1453a3;
 }
+
+.btn{
+  margin-top: 10px;
+  margin-left: 35px;
+  height: 50px;
+  width: 83%;
+  display: inline-block;
+  padding: 6px 13px;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px !important ;
+}
+
+.add-butn-info {
+  color: green;
+  background-color: white;
+  border-color: #ddd;
+}
+
 .text_img {
   font-size: 27px;
   padding-left: 20px;
@@ -460,4 +507,179 @@ footer {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+
+
+.course_detail_info{
+  background: ;
+  color: white;
+      padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.color_back{
+  background: #333333;
+  color: white;
+}
+
+.card{
+  background: #fff;
+    min-height: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.card_course{
+  background: #fff;
+margin-top: 45px;
+width: 400px;
+    min-height: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 30px;
+    color: black;
+}
+
+.card_box{
+  background: #fff;
+    min-height: 50px;
+    position: relative;
+    /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);*/
+    margin-bottom: 30px;
+    color: black;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+.learn{
+  background: #f2f3f4;
+    min-height: 50px;
+    border: 1px solid #ddd;
+    padding: 5px;
+        margin-top: 15px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+
+/*
+  The following rule sets the
+  size of the player
+*/
+.video-js {
+      width: 219px;
+    height: 160px;
+  }
+/*****************************/
+/*****************************/
+/*
+  The following TWO rules set
+  the location and size of
+  the big play button
+*/
+/*
+  This rule sets the color,
+   opacity, size and position of the
+   big play button
+*/
+.video-js.vjs-mouse .vjs-big-play-button {
+  background-color: #F3951D;
+  opacity: .8;
+  width: 150px;
+  height: 100px;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #FFFFFF;
+  margin-left: -11%;
+}
+/*
+  This rule sets the location and size
+  of the triangular play icon in the
+  big play button
+*/
+.video-js.vjs-mouse .vjs-big-play-button:before {
+  font-size: 1.5em;
+  color: white;
+  opacity: .9;
+  margin-top: -2.5%;
+  margin-left: -2.5%
+}
+
+.price_info{
+  padding-left: 33px;
+    padding-top: 25px;
+    display: flex;
+}
+
+.price{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.price_off{
+  font-size: 20px;
+  padding: 13px;
+color: green;
+}
+
+.days_remain{
+  padding-left: 33px;
+}
+
+.day_left{
+  font-family: myFirstFont;
+}
+
+.fa-mobile{
+    font-size: 23px !important;
+}
+
+.money_back{
+  font-size: 15px;
+
+}
+
+.guarantee{
+  text-align: center;
+}
+
+.head_include{
+  font-weight: 600;
+}
+
+.includes{
+  padding-left: 33px;
+      padding-bottom: 40px;
+}
+
+.includes_mat{
+  line-height: 1.8em;
+  font-family: myFirstFont;
+  padding: 10px;
+}
+
+
+ul.what_learn {
+  list-style: none;
+}
+
+.what_learn li{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+img{
+  margin-left: -30px;
+  float: left;
+}
+
+@media (max-width: 768px) { /* mobile view */
+  .card_course {
+    position: relative;
+    // or any other property to achieve the desired
+  }
 }
