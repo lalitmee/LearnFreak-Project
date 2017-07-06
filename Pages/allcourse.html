@@ -63,7 +63,7 @@
       <div class="col-md-10">
         <div class="search_box">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <select class="js-example-basic-multiple_1 form-control rounded" id="id_label_single" multiple="multiple">
                          <option></option>
     <option value="1">Job Oriented Trainings</option>
@@ -72,7 +72,31 @@
 
                        </select>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <select class="js-example-basic-multiple_3 form-control rounded" id="id_label_single" multiple="multiple">
+                         <option></option>
+                         <optgroup label="Technology">
+                           <option value="1">Moblie</option>
+                           <option value="2">Cloud</option>
+                           <option value="3">Java</option>
+
+                         </optgroup>
+
+                       </select>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <select class="js-example-basic-multiple_4 form-control rounded" id="id_label_single" multiple="multiple">
+                         <option></option>
+                         <optgroup label="Application">
+                           <option value="1">CRM</option>
+                           <option value="2">FI</option>
+                           <option value="3">SD</option>
+                           <option value="4">HCM</option>
+                         </optgroup>
+
+                       </select>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
               <div class="select-box_2">
                 <select class="js-example-basic-multiple_2 form-control rounded" id="id_label_single" multiple="multiple">
                            <option></option>
@@ -83,21 +107,6 @@
                              <option value="4">Germany</option>
 
                            </optgroup>
-
-                           <optgroup label="Technology">
-                             <option value="5">Moblie</option>
-                             <option value="6">Cloud</option>
-                             <option value="7">Java</option>
-
-                           </optgroup>
-
-                           <optgroup label="Application">
-                             <option value="8">CRM</option>
-                             <option value="9">FI</option>
-                             <option value="10">SD</option>
-                             <option value="11">HCM</option>
-                           </optgroup>
-
                          </select>
               </div>
             </div>
@@ -514,7 +523,19 @@
       });
 
       $(".js-example-basic-multiple_2").select2({
-        placeholder: "Select Topic",
+        placeholder: "Select Vendor",
+        allowClear: true,
+        tags: true,
+
+      });
+      $(".js-example-basic-multiple_3").select2({
+        placeholder: "Select Technology",
+        allowClear: true,
+        tags: true,
+
+      });
+      $(".js-example-basic-multiple_4").select2({
+        placeholder: "Select Application",
         allowClear: true,
         tags: true,
 
