@@ -9,18 +9,18 @@ body, html {
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  background-color: #051f49;
-  color: white;
+  background-color: transparent;
+  color: #4acaff ;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #051f49;
-  color: white;
+  background-color: transparent;
+  color: #4acaff;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: white;
-  background-color: #051f49;
+  color: #4acaff;
+  background-color: transparent;
 }
 
 .navbar {
@@ -32,11 +32,11 @@ body, html {
   font-family: myFirstFont;
   float: right !important;
 }
-
-.navbar-default {
-  color: white;
-  background-color: #1453a3;
-  border-color: #1453a3;
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
 }
 
 .navbar-default .navbar-brand {
@@ -47,20 +47,29 @@ body, html {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
+  font-size: large;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  /*background-color: blue !important;*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: #4acaff;
+    background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  /*color: white;
-     background-color: ;*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  color: #4acaff;
+background-color: transparent;
 }
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+     background-color: transparent;
+    border-color: #337ab7;
+}
+
+
 
 .bg {
   /* The image used */
-  background-image: url("../images/bg_trainer.jpg");
+  background-image: url("../images/trainer/02_trainer_bg.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -68,7 +77,12 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
-  margin-top: -20px;
+  margin-top: -72px;
+}
+
+.back_color{
+  background-color: rgba(0,0,0,.4);
+  height: 800px;
 }
 
 .caption {
@@ -81,7 +95,7 @@ body, html {
 }
 
 .cap-bold {
-  color: #1453a3;
+  color: white;
   font-size: 40px;
   /*font-weight: 300;*/
 }
@@ -115,7 +129,7 @@ body, html {
 }
 
 .cap-blue {
-  color: #1453a3;
+  color: white;
   font-size: 29px;
   font-weight: 300;
 }
@@ -174,6 +188,14 @@ body, html {
 
 .card_2 .card_icon {
   padding: 12px;
+}
+
+.card_3 .card_icon {
+  padding: 14px;
+}
+
+.card_4 .card_icon {
+  padding: 18px;
 }
 
 .img-circle {
@@ -834,7 +856,7 @@ width: 0;
 
 .nav-tabs>li>a:hover, .nav>li>a:focus {
   border-color: transparent !important;
-  background-color: #25a3ea !important;
+  background-color: #transparent !important;
   color: white;
 }
 
