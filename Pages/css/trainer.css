@@ -7,55 +7,83 @@ body, html {
   font-family: myFirstFont;
   src: url("../fonts/AvenirLTStd-Book.otf");
 }
-
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  background-color: #051f49;
-  color: white;
+body
+{
+  background-image:url('../img/bg_trainer.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height:908px;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #051f49;
-  color: white;
+/*.overlay{
+  height: 908px;
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+.m_top{
+  margin-top: 150px;
+  font-size: 50px;
+  font-family:Avenir;
+  font-style:italic;
+  color:white;
 }
 
-.navbar-default .navbar-brand:hover {
-  color: white;
-  background-color: #051f49;
+.trainer_back{
+  background-image:url('../img/img_trainer.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 250px;
+  margin:0;
+  border-radius:8px;
 }
 
-.navbar {
-  color: white;
-  border-radius: 0px;
+.learner_back{
+  background-image:url('../img/img_lerner.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 250px;
+  margin:0;
+  padding:0px;
+  border-radius:8px;
 }
 
-.navbar-nav {
-  font-family: myFirstFont;
-  float: right !important;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: rgba(0,0,0,0.0) !important;
+  color: #4acaff !important;
+  font-size: larger ;
+  font-family:Avenir;
 }
 
 .navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-nav > li > a:focus {
+  background-color: rgba(0,0,0,0.0) !important;
   color: white;
-  background-color: #1453a3;
-  border-color: #1453a3;
+  font-size: larger;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white !important;
+    background-color: rgb(231, 231, 231);
+    font-size: larger;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
-  font-family: “Bernard MT Condensed”, Times, serif;
-  font-size: 40px;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  /*background-color: blue !important;*/
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  /*color: white;
-     background-color: ;*/
+.navbar-toggle
+{
+overflow:auto;
 }
 
 section {
@@ -732,7 +760,7 @@ Tabs
     border-bottom-color: transparent;
 }
 
-.nav-tabs>li.active::after {
+/*.nav-tabs>li.active::after {
 content: "";
 position: absolute;
 bottom: -15px;
@@ -747,7 +775,7 @@ border-color: #063e5e transparent;
  transform: rotate(-90deg);
 display: block;
 width: 0;
-}
+}*/
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
   color: white !important;

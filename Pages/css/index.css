@@ -1,350 +1,272 @@
-body,html{
-  height: 100%;
-  font-family: myFirstFont;
+body
+{
+  background-image:url('../img/bg_index.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  height:908px;
 }
 
-@font-face {
-    font-family: myFirstFont ;
-    src: url("../fonts/AvenirLTStd-Book.otf");
+.m_top{
+  margin-top: 150px;
+  font-size: 50px;
+  font-family:Avenir;
+  font-style:italic;
+  color:white;
 }
 
-ul.nav a:hover { color: white !important; }
+.trainer_back{
+  background-image:url('../img/img_trainer.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 250px;
+  margin:0;
+  border-radius:8px;
+}
+
+.learner_back{
+  background-image:url('../img/img_lerner.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  height: 250px;
+  margin:0;
+  padding:0px;
+  border-radius:8px;
+}
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #051f49;
-    color: white;
+  background-color: rgba(0,0,0,0.0) !important;
+  color: #4acaff !important;
+  font-size: larger ;
+  font-family:Avenir;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color: #051f49;
+
+.navbar-default .navbar-nav > li > a, .navbar-nav > li > a:focus {
+  background-color: rgba(0,0,0,0.0) !important;
   color: white;
+  font-size: larger;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white !important;
+    background-color: rgb(231, 231, 231);
+    font-size: larger;
 }
 
-.navbar-default .navbar-brand:hover{
-  color: white;
-  background-color: #051f49;
+.navbar-toggle
+{
+overflow:auto;
 }
 
-.navbar {
-  color: white;
-  border-radius: 0px;
+.btn {
+    background-color: #4acaff;
+    border-color:#3baedd;
+    color:white;
+    font-family:Avenir;
+    width:140px;
+	height:50px;
+	padding: 15px;
+	font-size:15px;
+	font-weight:bold;
 }
-.navbar-nav{
-  font-family: avenir ;
-  float: right !important;
-}
-
-.navbar-default{
-  color: white;
-  background-color: #1453a3;
-  border-color: #1453a3;
-}
-
-.navbar-default .navbar-brand{
-  color: white;
-  font-family: “Bernard MT Condensed”, Times, serif;
-  font-size: 40px;
-}
-
-.navbar-default .navbar-nav>li>a{
-  color: white;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  /*background-color: blue !important;*/
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  /*color: white;
-     background-color: ;*/
-}
-
-section{
-  /*width: 500px; height:100%; margin: 0 auto;*/
-}
-
-.bg {
-    /* The image used */
-    background-image: url("../images/bg_index.jpg");
-
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:980px;
-    margin-top: -20px;
-
+.btn, .btn-default:hover, .btn-default:active, .btn-default:visited {
+    background-color: #4acaff;
+    border-color:#3baedd;
+    color:white;
+    font-family:Avenir;
 
 
 }
 
-.caption{
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  width: 50%;
-  font-family: myFirstFont ;
-
-  /*text-align: center;*/
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    border-color: rgba(0, 0, 0, 0.0) !important ;
 
 }
 
-.design{
-  margin-left: 25%;
-    padding: 20px;
-}
-
-.cap-bold{
-  color: #1453a3;
-  font-size: 40px;
-  /*font-weight: 300;*/
-}
-
-.text{
-  line-height: 1;
-  color: black;
-  padding-top: 50px;
-  font-family: myFirstFont ;
-}
-
-.search_box{
-  padding-top: 35px;
-}
-
-#namanyay-search-btn {
-background:#1453a3;
-color:white;
-font: myFirstFont;
-padding:10px 20px;
-border-radius:3px 3px 3px 3px;
--moz-border-radius:3px 3px 3px 3px;
--webkit-border-radius:3px 3px 3px 3px;
--o-border-radius:3px 3px 3px 3px;
-border:0 none;
-font-weight:bold;
-height: 50px;
-width: 14%;
-}
-
-#namanyay-search-box {
-background: #000;
-padding:10px;
-border-color: white;
- border-radius:3px 3px 3px 3px;
--moz-border-radius:3px 3px 3px 3px;
--webkit-border-radius:3px 3px 3px 3px;
--o-border-radius:3px 3px 3px 3px;
-border:1px solid white;
-width:85%;
-height: 50px;
-opacity: 0.5;
- }
-
- input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
-  font-size: 18px;
-}
-input::-moz-placeholder { /* Firefox 19+ */
-  color: white;
-  font-size: 18px;
-}
-input:-ms-input-placeholder { /* IE 10+ */
-  color: white;
-  font-size: 18px;
-}
-input:-moz-placeholder { /* Firefox 18- */
-  color: white;
-  font-size: 18px;
-}
-
-.card-container{
-  text-align:center;
-  padding-top: 50px;
-}
-.card{
-  background-color:black;
-  width: 230px;
-   height: 160px;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);
-  display:inline-block;
-  margin: 19px;
-  text-align:justify;
-  padding-top:10px;
-  opacity: 0.6;
-}
-
-.card-content img {
-  padding-left: 85px;
-    padding-top: 5px;
-}
-
-.img_text{
+.job {
+  margin:auto;
+  padding-right: 00px;
+  padding-top: 20px;
+  border-right: 0px solid #ddd;
+  width: 250px;
+  height:120px;
+  background: rgba(0, 0, 0, 0.7)!important;
+  font-family:Avenir;
   color: white;
   font-size: 20px;
-  text-align: center;
-      padding: 15px;
-}
-
-.card-container-big{
+  border-radius:8px;
   text-align:center;
-  padding-top: 100px;
+  box-sizing: border-box;
+
+ }
+
+.padding-0
+{
+  padding:10px;
+}
+.m_search{
+  margin-top: 30px;
+}
+.m_bottom{
+  margin-top:80px;
+}
+.trainer_text
+{
+  font-family:Avenir;
+  font-style:bold;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom:50px;
+}
+.learner_text
+{
+  font-family:Avenir;
+  font-style:bold;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom:50px;
+
+
+
 }
 
-.card_img_1{
-  background-image: url("../images/img_trainer.png");
+
+.how
+{
+  font-family:Avenir;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom:50px;
 
 }
 
-.card_img_2{
-  background-image: url("../images/img_learner.png");
+footer {
+  width: 100%;
+  height:50px;
+  background-color:#4acaff;
+  font-family:Avenir;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+  margin-bottom:0px;
+
+
+
 }
 
-.card-big{
-  background-color:black;
-  width: 366px;
-    height: 300px;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0,   0, 0.2), 0 6px 20px 0 rgba(0, 0,     0, 0.19);
-  display:inline-block;
-  margin: 19px;
-  text-align:justify;
-  padding-top:10px;
-  /*opacity: 0.6;*/
-}
+ .img-responsive {
+    max-width: 100%;
+    height: 100%;
+ }
 
-.card-content-big img {
-  padding-left: 85px;
-    padding-top: 5px;
-}
+ .text_trainer{
+	 position:relative;
+ }
+.m_footer{
+  margin-top: 117px;
 
-.highlight{
-  background-color: rgba(0,0,0,0.5);
- position: absolute;
- height: 300px;
- width: 366px;
- font-family: myFirstFont;
- color: #FFF;
- border-radius: 4px;
-   margin-top: -10px;
- z-index: 1;
 }
-
-.butn{
-  margin-left: 90px;
-  display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.butn-info{
-  color: #fff;
-    background-color: #1453a3;
-    border-color: #1453a3;
-}
-
-.text_img{
-  font-size: 27px;
-    padding-left: 20px;
-    padding-top: 100px;
-}
-.cap-blue{
-  /*color: #1453a3;*/
-  font-size: 29px;
-  font-weight: 300;
-}
-
-.text_down{
-  padding-left: 95px;
-padding-top: 30px;
-font-size: 21px;
-}
-
-/*.bg{
+.form-control {
+    display: block;
     width: 100%;
-    background-size: 100% 100%;
-}*/
-
-
-
-
-
-.info{
-  margin-left: 3%;
-  list-style: none;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+.img-responsive {
+    max-width: 100%;
+    height: 100%;
+ }
 
-.info li {
-  list-style: none;
-  line-height: 2em;
-}
+ .text_trainer{
+	 position:relative;
+ }
 
-/*.info ul li:first-child{
-  font-weight: 600;
-}*/
 
-.info .col-md-2 {
-  width: 230px;
-}
+ @media only screen and (max-width: 500px) {
+  .text_trainer{
+    font-size: 15px;
+    padding: 20px;
+  }
 
-.contact-bold{
-  font-weight: bolder;
-  /*font-size: 20px;*/
-}
+  .trainer_back{
+    font-size: 15px;
+  }
 
-footer{
-  background-color: #1453a3;
-}
+  .trainer_text{
+    font-size: 25px;
+  }
 
-.footer-stick{
-  margin-left: 15%;
+  .text_learner{
+    font-size: 15px;
+    padding: 20px;
+  }
+  .learner_text{
+    font-size: 25px;
 
-  color: white;
-}
+    margin-bottom: 15px;
 
-.fa {
-  padding: 15px;
+  }
+
+ }
+
+	 @media only screen and (max-width: 300px) {
+  .text_trainer{
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .trainer_back{
+    font-size: 15px;
+  }
+
+  .trainer_text{
     font-size: 20px;
-    width: 45px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
 
-.fa:hover {
-    opacity: 0.7;
-}
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
+  .text_learner{
+    font-size: 15px;
+    padding: 20px;
+  }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
+  .how{
+    font-size: 15px;
+        margin-top: -8px;
+  }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+
+  .learner_text{
+    font-size: 25px;
+
+    margin-bottom: 15px;
+
+  }
+ }
