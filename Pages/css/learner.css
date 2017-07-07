@@ -119,7 +119,7 @@ section{
 .cap-blue{
   color: white;
   font-size: 40px;
-  
+
 }
 
 .cap-bold{
@@ -472,7 +472,7 @@ width: 0;
 
 .nav-tabs>li>a:hover, .nav>li>a:focus {
   border-color: transparent !important;
-  background-color: #transparent !important;
+  background-color: #25a3ea !important;
   color: white;
 }
 
