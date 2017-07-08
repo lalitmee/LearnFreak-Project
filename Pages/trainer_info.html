@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/trainer_info.css">
+  <link rel="stylesheet" href="css/select2.min.css">
 
   <style media="screen">
 
@@ -57,139 +58,234 @@
 
   </section>
 
-  <section class="text">
+  <section>
     <div class="row">
       <div class="col-md-2">
 
       </div>
-      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <h1 class="why_text_bold"><strong>Why our</strong></h1>
-        <h1 class="why_text_light">Platform?</h1>
-
-        <div class="card">
-          <img class="card_icon " src="./images/learner/icon_tutor.png" alt="">
-          <p class="card_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+      <div class="col-md-8">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img class="img-responsive img-circle user_image" src="./images/trainer_info/user-mobile.png" alt="">
         </div>
 
-        <div class="card">
-          <img class="card_icon " src="./images/learner/icon_notepad.png" alt="">
-          <p class="card_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-        </div>
-
-        <div class="card">
-          <img class="card_icon " src="./images/learner/icon_online.png" alt="">
-          <p class="card_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-        </div>
-
-        <div class="card">
-          <img class="card_icon " src="./images/learner/icon_youself.png" alt="">
-          <p class="card_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+          <div id="form">
+            <form action="" method="post" name="registration" class="register">
+              <div class="form-group">
+                <label class="name" for="trainer">Name</label>
+                <input type="text" placeholder="Type Name here" name="trainer" />
+              </div>
+            </form>
+          </div>
         </div>
       </div>
       <div class="col-md-2">
 
       </div>
     </div>
-
-
   </section>
 
-  <section class="trainer_service">
-    <div class="service">
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-            <img class="img-responsive" src="./images/learner/img_trainingservice.jpg" alt="" width="400px" height="400px">
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
-          <div class="service_text">
-            <h3 class="heading_serv"><strong>Training Service</strong></h3>
-            <ul class="liststyle">
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p></li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat </p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text </p></li>
-              <li><p>is not simply random text. is not simply random text.is not.</p></li>
-              <li><p>Cicero are also reproduced in their exact original form, accompanied by </p></li>
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>There are many variations</p></li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat</p></li>
+  <hr class="line">
 
-            </ul>
+  <section>
+    <div class="row">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">Academic Qualification</label>
+          </div>
+
+          <div class="col-md-8">
+            <select class="select2_box qualification">
+              <option value=""></option>
+    <option value="AL">Alabama</option>
+    <option value="WY">Wyoming</option>
+    </select>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">What i am best at?/Skills</label>
+          </div>
+
+          <div class="col-md-8">
+            <select class="select2_box skills">
+              <option value=""></option>
+    <option value="AL">Alabama</option>
+    <option value="WY">Wyoming</option>
+    </select>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">Years of Experience</label>
+          </div>
+
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <select class="select2_box_small topic">
+                <option value=""></option>
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+        </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small experience">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small references">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small topic">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small topic">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small topic">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+            </div>
+
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">Check out my teaching style</label>
+          </div>
+
+          <div class="col-md-8">
+            <div class="teching_style_box">
+              <video class="video" controls>
+                  <source src="./images/trainer.mp4" type="video/mp4" />
+              </video>
+
+              <video class="video" controls>
+              <source src="./images/trainer.mp4" type="video/mp4" />
+              </video>
+
+              <video class="video" controls>
+                <source src="./images/trainer.mp4" type="video/mp4" />
+                </video>
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">What i can teach you?/My Offerings/Catalog</label>
+          </div>
+
+          <div class="col-md-8">
+            <select class="select2_box offerings">
+              <option value=""></option>
+    <option value="AL">Alabama</option>
+    <option value="WY">Wyoming</option>
+    </select>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">How i can teach you?</label>
+          </div>
+
+          <div class="col-md-8">
+            <select class="select2_box teach">
+              <option value=""></option>
+    <option value="AL">Alabama</option>
+    <option value="WY">Wyoming</option>
+    </select>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label class="labels" for="">Schedule</label>
+          </div>
+
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <select class="select2_box_small schedule">
+                  <option value=""></option>
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+        </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small qualification">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+              <div class="col-md-4">
+                <select class="select2_box_small qualification">
+                <option value=""></option>
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <button type="button" class="butn butn-info" name="button">Save</button>
+        <button type="button" class="butn butn-info" name="button">Cancel</button>
+
+
+        <br>
+        <br>
+        <br>
       </div>
+      <div class="col-md-2">
 
       </div>
-
-
     </div>
   </section>
 
-  <section class="job_support">
-    <div class="service">
-      <div class="row">
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
-          <div class="service_text">
-            <h3 class="heading_serv"><strong>On-Job Support Service</strong></h3>
-            <ul class="liststyle">
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p> </li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat </p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text </p></li>
-              <li><p>is not simply random text. is not simply random text.is not.</p></li>
-              <li><p>Cicero are also reproduced in their exact original form, accompanied by </p></li>
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>There are many variations</p></li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat</p></li>
-
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 padding_0">
-            <img class="img-responsive pull-right" src="./images/learner/img_onjobsupport.jpg" alt="" width="400px" height="400px">
-        </div>
-      </div>
-
-      </div>
 
 
-    </div>
-  </section>
-
-
-  <section class="project_exp">
-    <div class="service">
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-            <img class="img-responsive" src="./images/learner/img_projectexp.jpg" alt="" width="400px" height="400px">
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
-          <div class="service_text">
-            <h3 class="heading_serv"><strong>Project Experience</strong></h3>
-            <ul class="liststyle">
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p></li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat </p></li>
-              <li><p>Contrary to popular belief, Lorem Ipsum is not simply random text </p></li>
-              <li><p>is not simply random text. is not simply random text.is not.</p></li>
-              <li><p>Cicero are also reproduced in their exact original form, accompanied by </p></li>
-              <li><p>There are many variations of passages of Lorem Ipsum available</p></li>
-              <li><p>There are many variations</p></li>
-              <li><p>All the Lorem Ipsum generators on the Internet tend to repeat</p></li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      </div>
-
-
-    </div>
-  </section>
 
 
   <footer class="">
@@ -216,20 +312,62 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-  <script src="js/jRate.js"></script>
+  <script src="js/select2.min.js"></script>
   <script type="text/javascript">
-  $(document).ready(function() {
-    $("#jRate1").jRate({
-      backgroundColor: '#ddd',
-      width: 25,
-      precision: 0.5,
-      height: 20,
-      shapeGap: '5px',
-    });
+    $(document).ready(function() {
+      $(".qualification").select2({
+        placeholder: "Select Qualification"
+      });
 
-  });
+      $(".skills").select2({
+        placeholder: "Select Skills"
+      });
+
+      $(".topic").select2({
+        placeholder: "Select Topic"
+      });
+      $(".experience").select2({
+        placeholder: "Years of Experience"
+      });
+
+      $(".references").select2({
+        placeholder: "References"
+      });
+
+      $(".offerings").select2({
+        placeholder: "Select Qualification"
+      });
+      $(".teach").select2({
+        placeholder: "Select Topic"
+      });
+
+      $(".schedule").select2({
+        placeholder: "Select Topic"
+      });
+
+      $(".availability").select2({
+        placeholder: " Availability"
+      });
+
+      $(".timezone").select2({
+        placeholder: " Timezone"
+      });
+
+      $(".location").select2({
+        placeholder: " Location"
+      });
+
+
+      $('.video').parent().click(function() {
+        if ($(this).children(".video").get(0).paused) {
+          $(this).children(".video").get(0).play();
+          $(this).children(".playpause").fadeOut();
+        } else {
+          $(this).children(".video").get(0).pause();
+          $(this).children(".playpause").fadeIn();
+        }
+      });
+    });
   </script>
 </body>
 
