@@ -2,33 +2,34 @@
 This is the project for LearnFreak Website.
 
 ## Home Page ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Home](https://github.com/lalitmee/LearnFreak-Project/blob/master/Home.png?raw=true "Home Page")
 
 
 ## Trainer ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Trainer](https://github.com/lalitmee/LearnFreak-Project/blob/master/Trainer.png?raw=true "Trainer")
+
 
 
 ## Trainer Info ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Trainer Info](https://github.com/lalitmee/LearnFreak-Project/blob/master/Trainer%20Info.png?raw=true "Trainer Info")
 
 
 ## Learner##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Learner](https://github.com/lalitmee/LearnFreak-Project/blob/master/Learner.png?raw=true "Learner")
 
 
 ## Learner Info ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Learner Info](https://github.com/lalitmee/LearnFreak-Project/blob/master/Learner%20Info.png?raw=true "Learner Info")
 
 
 ## Trainer Search ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Trainer Search](https://github.com/lalitmee/LearnFreak-Project/blob/master/Trainer%20Search.png?raw=true "Trainer Search")
 
 
 ## Courses ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![All Courses](https://github.com/lalitmee/LearnFreak-Project/blob/master/All%20Courses.png?raw=true "Courses")
 
 
 ## Courses Info ##
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Course](https://github.com/lalitmee/LearnFreak-Project/blob/master/Course.png?raw=true "Course Info")
 
