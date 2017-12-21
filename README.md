@@ -14,7 +14,7 @@ This is the project for LearnFreak Website.
 ![Trainer Info](https://github.com/lalitmee/LearnFreak-Project/blob/master/Trainer%20Info.png?raw=true "Trainer Info")
 
 
-## Learner##
+## Learner ##
 ![Learner](https://github.com/lalitmee/LearnFreak-Project/blob/master/Learner.png?raw=true "Learner")
 
 
