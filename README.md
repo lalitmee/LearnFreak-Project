@@ -1,5 +1,5 @@
 # LearnFreak-Project
-This is the project for LearnFreak Website.
+This is the website design for LearnFreak Website which I did in my summer internship.
 
 ## Home Page ##
 ![Home](https://github.com/lalitmee/LearnFreak-Project/blob/master/Home.png?raw=true "Home Page")
